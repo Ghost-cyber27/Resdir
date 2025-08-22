@@ -1,14 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Welcome } from './navigation/screens/auth/welcome';
+import { Login } from './navigation/screens/auth/login';
+import { SignUp } from './navigation/screens/auth/signup';
+import { ForgotPassword } from './navigation/screens/auth/forgotPassword';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
+  return <ForgotPassword/>;
+}
+
+/*
+<View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
-  );
-}
+ */
 
 const styles = StyleSheet.create({
   container: {
