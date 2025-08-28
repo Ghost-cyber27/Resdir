@@ -54,14 +54,8 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
           switch (route.name) {
             case "Home":
               return <Ionicons name="home-outline" size={25} style={{ color: isFocused ? '#fff' : '#222' }}/>;
-            case "Search":
-              return <Ionicons name="search-outline" size={24} style={{ color: isFocused ? '#fff' : '#222' }}/>;
-            case "Upload":
-              return <Ionicons name="share-outline" size={24} style={{ color: isFocused ? '#fff' : '#222' }}/>;
             case "Chat":
               return <Ionicons name="chatbubble-outline" size={24} style={{ color: isFocused ? '#fff' : '#222' }}/>;
-            case "Profile":
-              return <Ionicons name="person-outline" size={24} style={{ color: isFocused ? '#fff' : '#222' }}/>;
             default:
               return null;
           }

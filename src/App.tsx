@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { Welcome } from './navigation/screens/auth/welcome';
-import { Login } from './navigation/screens/auth/login';
-import { SignUp } from './navigation/screens/auth/signup';
-import { ForgotPassword } from './navigation/screens/auth/forgotPassword';
+import { Home } from './navigation/screens/Home';
+import AppNavigator from './navigation';
 
 export default function App() {
-  return <ForgotPassword/>;
+  return <Home/>
 }
 
 /*
